@@ -1,0 +1,18 @@
+---
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  labels:
+    backstage.io/kubernetes-id: marghe-shop
+    app.kubernetes.io/name: marghe-shop
+    rht-gitops.com/janus-argocd: marghe-shop
+  name: storeuser-sa
+---
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  labels:
+    backstage.io/kubernetes-id: marghe-shop
+    app.kubernetes.io/name: marghe-shop
+    rht-gitops.com/janus-argocd: marghe-shop
+  name: storeuseradmin-sa
